@@ -3,7 +3,7 @@ language: java
 
 before_script: 
 - mkdir bin
-- export CLASSPATH=javaUtils/junit-4.11.jar:junitUtils/hammcrest-core-1.3.jar:src/:bin
+- export CLASSPATH=javaUtils/junit-4.11.jar:javaUtils/hammcrest-core-1.3.jar:src/:bin
 
 script:
 - javac -d bin src/test/CalculatorTest.java 
